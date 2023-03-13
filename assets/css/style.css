@@ -1,7 +1,7 @@
 .contain {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
   height: 800px;
   margin: 0 auto;
   background-image: url(../images/R.jpeg);
@@ -12,7 +12,7 @@
 
 .contain .loginPage {
   width: 30%;
-  border: 2px solid black;
+  border: 5px solid rgb(255, 255, 255);
   padding: 20px;
 }
 
@@ -35,7 +35,7 @@
   width: 30%;
   align-self: flex-start;
   flex-wrap: wrap;
-  border: 2px solid white;
+  border: 5px solid white;
   padding: 20px;
   margin-left: 50px;
   color: white;
@@ -50,7 +50,7 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  border: 2px solid white;
+  border: 5px solid white;
   margin-left: 100px;
   justify-content: center;
   color: white;
@@ -58,7 +58,7 @@
 
 .contain .aboutPage .aboutView h1 {
   margin-left: 100px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .contain .aboutPage .aboutView h3 {
