@@ -1,0 +1,66 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 800px;
+  margin: 0 auto;
+  background-image: url(../images/R.jpeg);
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+}
+
+.contain .loginPage {
+  width: 30%;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.contain .loginPage input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contain .loginPage h6 {
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+.contain .aboutPage {
+  display: flex;
+  display: none;
+}
+
+.contain .aboutPage .inputPage {
+  width: 30%;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  border: 2px solid white;
+  padding: 20px;
+  margin-left: 50px;
+  color: white;
+}
+
+.contain .aboutPage .inputPage input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contain .aboutPage .aboutView {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 2px solid white;
+  margin-left: 100px;
+  justify-content: center;
+  color: white;
+}
+
+.contain .aboutPage .aboutView h1 {
+  margin-left: 100px;
+  color: black;
+}
+
+.contain .aboutPage .aboutView h3 {
+  margin: 30px 10px;
+}
